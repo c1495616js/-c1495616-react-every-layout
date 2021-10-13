@@ -23,7 +23,7 @@ export default {
 } as Meta;
 
 export const Playground: Story<CenterProps> = (props) => (
-  <Box borderWidth="1px" padding="1em">
+  <Box borderWidth="1px">
     <Center {...props}>
       <Box borderWidth="1px">Contents</Box>
       <Box borderWidth="1px">Contents</Box>
